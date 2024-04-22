@@ -1,0 +1,47 @@
+#day{
+   font-family:'Courier New', Courier, monospace;
+   font-size: 20px;
+   border: solid 2px #7288c0;
+   color : #7288c0;
+   background-color:#e0e7fa;
+   border-radius: 20px;
+   padding : 10px 10px 10px 10px;
+   margin-left: 10px;
+   width: 150px;
+   
+}
+#header{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 380px;
+    
+}
+#day:hover{
+    background-color: #ffdff0;
+    border-color: #b98aa3;
+    color : #b98aa3;
+    cursor:default;
+    transition : 0.5s;
+   
+}
+
+#mealInfo{
+    margin : 10px 50px 50px 50px;
+    border: solid 3px #e4b0cc;
+    border-radius: 20px;
+    background-color:#fff3f4;
+    display:flex;
+    padding: 20px 20px 20px 20px;
+    
+    
+}
+#boxes{
+    margin: 20px;
+}
+
+label {
+    cursor: pointer
+}
+
+
