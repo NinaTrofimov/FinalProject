@@ -7,24 +7,37 @@
     <title>WEB-115 Final Project</title>
 </head>
 <body>
+    <center>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <div id = "header">
         <img src = "card.png" style = "width: 400px;" id = "card">
     </div>
+    <input type = "button" id ="resetMeals" value = "Reset Meal Planner"></input>
     <div id = "mealInfo">
     </div>
     <div id = "info">
+        <div id = "infoLabels">
+            <div id = "infoInputs">
         <label for = "name">Enter your name: </label>
         <input type = "text" id = "name">
         <label for = "email">Enter your email: </label>
         <input type = "text" id = "email">
-
+        <label for = "goals">Enter set goals: </label>
+        <input type = "text" id = "goals">
+            </div>
+            <div id = "infoButtons">
+        <input type = "button" id ="resetInfo" value = "Reset Information"></input>
+        <input type = "button" id = "print" value = "Print This Page">
+        <input type = "button" id = "subButton" value = "Form your meal plan"></input>
+            </div>
+        </div>
     </div>    
+    <div id = "test">
+        
+    </div>
 
-    <input type = "button" id = "subButton" value = "Submit"></input>
-
-
+</center>
 
 <script src = "projectJs.js"></script>
 </body>

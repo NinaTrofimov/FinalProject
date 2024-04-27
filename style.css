@@ -1,47 +1,96 @@
+
+/* meal plan */
 #day{
-   font-family:'Courier New', Courier, monospace;
-   font-size: 20px;
-   border: solid 2px #7288c0;
-   color : #7288c0;
-   background-color:#e0e7fa;
-   border-radius: 20px;
-   padding : 10px 10px 10px 10px;
-   margin-left: 10px;
-   width: 150px;
-   
-}
-#header{
     text-align: center;
-    display: block;
-    margin: 0 auto;
-    width: 380px;
-    
-}
-#day:hover{
-    background-color: #ffdff0;
-    border-color: #b98aa3;
-    color : #b98aa3;
-    cursor:default;
-    transition : 0.5s;
-   
-}
-
-#mealInfo{
-    margin : 10px 50px 50px 50px;
-    border: solid 3px #e4b0cc;
+    box-shadow: 0 2px 4px #7288c0;
+    font-size: 20px;
+    border: solid 2px #7288c0;
+    color : #7288c0;
+    background-color:#e0e7fa;
     border-radius: 20px;
-    background-color:#fff3f4;
-    display:flex;
-    padding: 20px 20px 20px 20px;
-    
-    
-}
-#boxes{
-    margin: 20px;
-}
-
-label {
-    cursor: pointer
-}
-
-
+    width: 10px;
+    padding : 10px;
+    min-width: 150px;
+ }
+ #header{
+     text-align: center;
+     display: block;
+     margin: 0 auto;
+     width: 380px;
+ }
+ 
+ 
+ #mealInfo{
+     margin : 10px 5px 10px 10px;
+     border: solid 3px #e4b0cc;
+     border-radius: 20px;
+     color:#7288c0;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color:#fff3f4;
+     display:flex;
+     width : 90em;
+     box-shadow: 0 2px 4px #7288c0;
+     height: 350px;
+ }
+ #boxes{
+     margin: 15px;
+     padding: 12px 0px 15px 0px;
+     border: 1px solid #7288c0;
+     border-radius: 5px;
+     box-shadow: 0 2px 4px #7288c0;
+     background-color: #d8eeff7d;
+ }
+ label:hover,input:hover{
+     color:#14255b;
+     cursor:pointer;
+     
+ }
+ 
+ label[for ="name"]:hover,label[for="goals"]:hover,label[for="email"]:hover{
+     color:#602847;
+ }
+ 
+ 
+ #resetMeals{
+     box-shadow: 0 2px 4px #7288c0;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 10px;
+     border-color:#7288c0;
+     border-radius: 20px;
+     font-size: 20px;
+     background-color: #e5ecff;
+     color:#7288c0;
+     width: 300px;
+     height: 30px;
+ }
+ 
+ /* info */
+ #info{
+     box-shadow: 0 2px 4px #7288c0;
+     border-radius: 20px;;
+     border:#e4b0cc solid 3px;
+     background-color: #fff3f4;
+     width: 80em;
+     color:#b47999;
+     padding: 20px;
+     height: 100px;
+ }
+ 
+ 
+ #infoInputs{
+     font-size:25px;
+ }
+ #infoButtons{
+     margin : 20px;
+ }
+ #resetInfo, #print, #subButton{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border-color:#7288c0;
+     color:#7288c0;
+     border-radius: 20px;
+     background-color:#d8eeff7d;
+     height: 50px;
+     font-size: 15px;
+     width: 400px;
+ }
+ 
